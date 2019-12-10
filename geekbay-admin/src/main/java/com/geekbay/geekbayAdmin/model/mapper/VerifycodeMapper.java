@@ -2,9 +2,7 @@ package com.geekbay.geekbayAdmin.model.mapper;
 
 import com.geekbay.geekbayAdmin.model.dao.Verifycode;
 import com.geekbay.geekbayAdmin.model.dao.VerifycodeExample;
-
 import java.util.List;
-
 import org.apache.ibatis.annotations.Param;
 
 public interface VerifycodeMapper {

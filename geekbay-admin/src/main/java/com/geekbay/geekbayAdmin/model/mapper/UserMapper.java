@@ -2,9 +2,7 @@ package com.geekbay.geekbayAdmin.model.mapper;
 
 import com.geekbay.geekbayAdmin.model.dao.User;
 import com.geekbay.geekbayAdmin.model.dao.UserExample;
-
 import java.util.List;
-
 import org.apache.ibatis.annotations.Param;
 
 public interface UserMapper {

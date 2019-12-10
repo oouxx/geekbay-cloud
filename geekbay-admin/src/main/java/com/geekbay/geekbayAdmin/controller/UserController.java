@@ -17,7 +17,7 @@ public class UserController {
     private UserService userService;
     private static final Logger LOGGER = LoggerFactory.getLogger(UserController.class);
 
-    @RequestMapping(value = "listAll", method = RequestMethod.GET)
+    @RequestMapping(value = "/listAll", method = RequestMethod.GET)
     public CommonResult<List<User>> getAllUser() {
         return CommonResult.success(userService.listAllUser());
     }

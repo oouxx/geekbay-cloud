@@ -1,7 +1,6 @@
 package com.geekbay.geekbayAdmin.model.dao;
 
 import io.swagger.annotations.ApiModelProperty;
-
 import java.io.Serializable;
 import java.util.Date;
 
