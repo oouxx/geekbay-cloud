@@ -1,4 +1,4 @@
-package com.geekbay.geekbay-cloud.geekbayGateway.entity;
+package com.geekbay.geekbayGateway.entity;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;

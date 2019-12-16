@@ -1,6 +1,6 @@
 package com.geekbay.geekbayGateway.filter;
 
-import com.geekbay.geekbay-cloud.geekbayCommon.bean.xss.XssHttpServletRequestWrapper;
+import com.geekbay.geekbayCommon.bean.xss.XssHttpServletRequestWrapper;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;

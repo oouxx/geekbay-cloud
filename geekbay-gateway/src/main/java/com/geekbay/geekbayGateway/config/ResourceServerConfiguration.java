@@ -3,7 +3,7 @@ package com.geekbay.geekbayGateway.config;
 import com.fasterxml.jackson.annotation.JsonTypeInfo;
 import com.fasterxml.jackson.databind.MapperFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.geekbay.geekbay-cloud.geekbayCommon.bean.config.FilterIgnorePropertiesConfig;
+import com.geekbay.geekbayCommon.bean.config.FilterIgnorePropertiesConfig;
 import com.geekbay.geekbayGateway.handler.VoleAccessDeniedHandler;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;

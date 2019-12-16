@@ -1,8 +1,8 @@
 package com.geekbay.geekbayGateway.service.impl;
 
-import com.geekbay.geekbay-cloud.geekbayCommon.constants.CommonConstant;
-import com.geekbay.geekbay-cloud.geekbayCommon.constants.MqQueueConstant;
-import com.geekbay.geekbay-cloud.geekbayCommon.utils.IOUtils;
+import com.geekbay.geekbayCommon.constants.CommonConstant;
+import com.geekbay.geekbayCommon.constants.MqQueueConstant;
+import com.geekbay.geekbayCommon.utils.IOUtils;
 import com.geekbay.geekbayGateway.entity.SysLog;
 import com.geekbay.geekbayGateway.entity.vo.LogVO;
 import com.geekbay.geekbayGateway.service.LogSendService;

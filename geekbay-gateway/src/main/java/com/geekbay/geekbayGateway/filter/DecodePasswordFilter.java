@@ -1,7 +1,7 @@
 package com.geekbay.geekbayGateway.filter;
 
-import com.geekbay.geekbay-cloud.geekbayCommon.constants.SecurityConstants;
-import com.geekbay.geekbay-cloud.geekbayCommon.security.B64Encrypter;
+import com.geekbay.geekbayCommon.constants.SecurityConstants;
+import com.geekbay.geekbayCommon.security.B64Encrypter;
 import com.netflix.zuul.ZuulFilter;
 import com.netflix.zuul.context.RequestContext;
 import io.netty.util.CharsetUtil;

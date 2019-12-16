@@ -2,11 +2,11 @@ package com.geekbay.geekbayGateway.filter;
 
 import com.alibaba.fastjson.JSONObject;
 
-import com.geekbay.geekbay-cloud.geekbayCommon.bean.config.FilterIgnorePropertiesConfig;
-import com.geekbay.geekbay-cloud.geekbayCommon.constants.SecurityConstants;
-import com.geekbay.geekbay-cloud.geekbayCommon.utils.AuthUtils;
-import com.geekbay.geekbay-cloud.geekbayCommon.utils.R;
-import com.geekbay.geekbay-cloud.geekbayGateway.exception.ValidateCodeException;
+import com.geekbay.geekbayCommon.bean.config.FilterIgnorePropertiesConfig;
+import com.geekbay.geekbayCommon.constants.SecurityConstants;
+import com.geekbay.geekbayCommon.utils.AuthUtils;
+import com.geekbay.geekbayCommon.utils.R;
+import com.geekbay.geekbayGateway.exception.ValidateCodeException;
 import com.netflix.zuul.ZuulFilter;
 import com.netflix.zuul.context.RequestContext;
 import lombok.extern.slf4j.Slf4j;

@@ -1,9 +1,9 @@
 package com.geekbay.geekbayGateway.handler;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.geekbay.geekbay-cloud.geekbayCommon.constants.CommonConstant;
-import com.geekbay.geekbay-cloud.geekbayCommon.utils.R;
-import com.geekbay.geekbay-cloud.geekbayGateway.exception.VoleDeniedException;
+import com.geekbay.geekbayCommon.constants.CommonConstant;
+import com.geekbay.geekbayCommon.utils.R;
+import com.geekbay.geekbayGateway.exception.VoleDeniedException;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.http.HttpStatus;
 import org.springframework.beans.factory.annotation.Autowired;
