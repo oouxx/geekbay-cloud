@@ -3,3 +3,7 @@ spring:
     active: dev
   application:
     name: geekbay-admin
+mybatis:
+  mapper-locations:
+    - classpath:mapper/*.xml
+    - classpath*:com/**/mapper/*.xml
