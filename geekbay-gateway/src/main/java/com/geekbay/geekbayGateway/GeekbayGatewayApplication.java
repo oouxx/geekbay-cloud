@@ -11,18 +11,16 @@ import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
 
-@Slf4j
+//@Slf4j
 @EnableZuulProxy
-@EnableFeignClients
+//@EnableFeignClients
 @EnableDiscoveryClient
-@EnableGlobalMethodSecurity(prePostEnabled = true)
-@EnableHystrix                // 开启断路器
-@EnableHystrixDashboard
+//@EnableGlobalMethodSecurity(prePostEnabled = true)
+//@EnableHystrix                // 开启断路器
+//@EnableHystrixDashboard
 @SpringBootApplication(scanBasePackages = {"com.geekbay.geekbayGateway", "com.geekbay.geekbayCommon.bean"})
 public class GeekbayGatewayApplication {
-
     public static void main(String[] args) {
-        log.debug("VoleGatewayApplication startup main");
         SpringApplication application = new SpringApplication(GeekbayGatewayApplication.class);
         application.setBannerMode(Banner.Mode.OFF);
         application.run(args);
