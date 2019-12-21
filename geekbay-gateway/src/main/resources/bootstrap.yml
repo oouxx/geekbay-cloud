@@ -43,4 +43,3 @@ eureka:
 security:
   auth:
     server: http://localhost:7001
-

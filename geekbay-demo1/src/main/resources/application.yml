@@ -1,0 +1,11 @@
+server:
+  port: 9001
+
+spring:
+  application:
+    name: geekbay-demo1
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1025/eureka/

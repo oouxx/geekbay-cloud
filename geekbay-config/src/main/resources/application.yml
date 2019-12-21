@@ -13,3 +13,7 @@ spring:
        # test environment (config/test/**)
       profile: test
       label: master
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1025/eureka/

@@ -1,0 +1,11 @@
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1025/eureka/
+server:
+  port: 9002
+
+spring:
+  application:
+    name: geekbay-ribbon

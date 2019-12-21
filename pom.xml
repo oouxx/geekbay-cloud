@@ -44,8 +44,14 @@
         <module>geekbay-security</module>
         <module>geekbay-common</module>
         <module>geekbay-registry</module>
+        <module>geekbay-demo1</module>
+        <module>geekbay-ribbon</module>
     </modules>
     <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+        </dependency>
     </dependencies>
     <dependencyManagement>
         <dependencies>
@@ -70,10 +76,16 @@
     <!-- 使用aliyun镜像 -->
     <repositories>
         <repository>
-            <id>aliyun</id>
-            <name>aliyun</name>
-            <url>http://maven.aliyun.com/nexus/content/groups/public</url>
+            <id>maven-ali</id>
+            <url>https://maven.aliyun.com/nexus/content/groups/public//</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+                <checksumPolicy>fail</checksumPolicy>
+            </snapshots>
         </repository>
-
     </repositories>
 </project>
