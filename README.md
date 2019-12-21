@@ -8,4 +8,14 @@
 
 - 4001
 
-## 
+## geekbay-cloud-registry-center
+
+- 8001
+
+## geekbay-cloud-gateway
+
+- 8002
+
+## geekbay-cloud-admin
+
+- 8003

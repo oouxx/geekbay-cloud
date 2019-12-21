@@ -1,0 +1,15 @@
+server:
+  port: 4001
+spring:
+  application:
+    name: geekbay-cloud-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: git@github.com:oouxx/geekbay-cloud-config.git
+          search-paths: config/${spring.cloud.config.profile}
+          default-label: master
+       # test environment (config/test/**)
+      profile: test
+      label: master

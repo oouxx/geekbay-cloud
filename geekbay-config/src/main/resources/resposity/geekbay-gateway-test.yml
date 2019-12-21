@@ -1,12 +1,5 @@
 server:
-  port: 9999
-
-spring:
-  datasource:
-      driver-class-name: com.mysql.jdbc.Driver
-      username: root
-      password: 12345678
-      url: jdbc:mysql://127.0.0.1:3306/vole?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowPublicKeyRetrieval=true
+  port: 8002 
 
 #spring:
 #  zipkin:
@@ -27,11 +20,7 @@ zuul:
     repository: REDIS
     behind-proxy: true
     policies:
-      vole-mps:
-        limit: 100
-        quota: 100
-        refresh-interval: 3
-      vole-demo:
+      geekbay-admin:
         limit: 100
         quota: 100
         refresh-interval: 3

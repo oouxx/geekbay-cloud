@@ -1,0 +1,7 @@
+zuul:
+  routes:
+    admin:
+      path: /admin/**
+      serviceId: geekbay-admin
+      #url: http://localhost:8080/
+

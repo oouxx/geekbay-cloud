@@ -8,7 +8,7 @@ spring:
       fail-fast: true
       discovery:
         service-id: geekbay-cloud-config-server
-        enabled: true
+        enabled: false
       profile: ${spring.profiles.active}
 
 ---
